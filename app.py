@@ -1,3 +1,4 @@
+import nltkmodules
 from logging import debug
 from flask import Flask,render_template,request
 from textblob import Word
