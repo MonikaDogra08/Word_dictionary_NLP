@@ -1,4 +1,9 @@
-import nltkmodules
+import nltk
+
+# download these model from nltk
+nltk.download('wordnet')
+nltk.download('punkt')
+
 from logging import debug
 from flask import Flask,render_template,request
 from textblob import Word
